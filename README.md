@@ -2,7 +2,7 @@
 
 Generate, visualize, and query knowledge graphs from documents using LlamaIndex, FastAPI, and PyVis.
 
-![Sample Knowledge Graph](docs/sample_knowledge_graph.png)
+![Sample Knowledge Graph](image.png)
 
 > The full interactive knowledge graph is located at [`notebooks/graph_demo.html`](notebooks/graph_demo.html).
 
