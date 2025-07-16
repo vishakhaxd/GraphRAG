@@ -1,0 +1,31 @@
+
+[tool.poetry]
+name = "knowledge-graph-app"
+version = "0.1.0"
+description = "Generate and visualize knowledge graphs from documents using LlamaIndex"
+authors = ["Your Name <your@email.com>"]
+readme = "README.md"
+packages = [{ include = "backend" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+llama-index = "^0.10.20"
+openai = "*"
+fastapi = "*"
+uvicorn = "*"
+pyvis = "*"
+networkx = "*"
+python-dotenv = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+flake8 = "*"
+pytest = "*"
+ipykernel = "^6.29.5"
+
+[tool.black]
+line-length = 88
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
